@@ -5,7 +5,6 @@ public class WeekendStrategy implements PricingStrategy {
         return originalPrice * 1.1;
     }
 
-
     @Override
     public String getDescription() {
         return "Weekend discount +10%";

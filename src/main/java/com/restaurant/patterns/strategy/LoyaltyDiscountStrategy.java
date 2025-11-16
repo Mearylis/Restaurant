@@ -5,7 +5,6 @@ public class LoyaltyDiscountStrategy implements PricingStrategy {
     public LoyaltyDiscountStrategy(int level) {
         this.loyaltyLevel = Math.min(level, 3);
     }
-
     @Override
     public double calculatePrice(double originalPrice) {
         double discount = loyaltyLevel * 0.05;

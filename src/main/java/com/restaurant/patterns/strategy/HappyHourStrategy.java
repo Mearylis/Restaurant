@@ -5,6 +5,7 @@ public class HappyHourStrategy implements PricingStrategy {
     public double calculatePrice(double originalPrice) {
         return originalPrice * 0.8;
     }
+
     @Override
     public String getDescription() {
         return "Happy Hour -20%";

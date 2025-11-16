@@ -4,7 +4,6 @@ public class SeasonalStrategy implements PricingStrategy {
     private String seasonName;
     private double discountPercent;
 
-
     public SeasonalStrategy(String season, double discount) {
         this.seasonName = season;
         this.discountPercent = discount;
