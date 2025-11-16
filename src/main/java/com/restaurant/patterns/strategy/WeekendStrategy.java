@@ -6,6 +6,7 @@ public class WeekendStrategy implements PricingStrategy {
         return originalPrice * 1.10; // +10% surcharge on weekends
     }
 
+
     @Override
     public String getDescription() {
         return "Weekend +10% surcharge";
