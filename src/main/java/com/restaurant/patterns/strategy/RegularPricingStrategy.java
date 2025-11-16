@@ -6,6 +6,7 @@ public class RegularPricingStrategy implements PricingStrategy {
         return originalPrice;
     }
 
+
     @Override
     public String getDescription() {
         return "Regular pricing";

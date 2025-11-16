@@ -2,7 +2,6 @@ package com.restaurant.patterns.strategy;
 
 public class LoyaltyDiscountStrategy implements PricingStrategy {
     private int loyaltyLevel;
-
     public LoyaltyDiscountStrategy(int level) {
         this.loyaltyLevel = Math.min(level, 3);
     }
