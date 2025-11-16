@@ -1,10 +1,10 @@
 package com.restaurant.models;
 
-import com.restaurant.patterns.observer.Observer;
-import com.restaurant.patterns.strategy.PricingStrategy;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import com.restaurant.patterns.observer.Observer;
+import com.restaurant.patterns.strategy.PricingStrategy;
 
 public class Order {
     private int orderId;
@@ -12,6 +12,7 @@ public class Order {
     private List<Dish> dishes;
     private OrderStatus status;
     private double totalPrice;
+
     private List<Observer> observers;
     private Customer customer;
     private String specialInstructions;
