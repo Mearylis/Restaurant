@@ -6,7 +6,6 @@ import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-
 public class ManagerObserver implements Observer {
     private static ManagerObserver instance;
     private Map<OrderStatus, Integer> statusCounts;

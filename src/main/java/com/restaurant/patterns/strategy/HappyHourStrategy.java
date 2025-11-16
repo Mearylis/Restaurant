@@ -7,7 +7,6 @@ public class HappyHourStrategy implements PricingStrategy {
     }
 
     @Override
-
     public String getDescription() {
         return "Happy Hour -20%";
     }

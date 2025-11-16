@@ -5,7 +5,6 @@ import com.restaurant.models.OrderStatus;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-
 public class CustomerObserver implements Observer {
     private static CustomerObserver instance;
     private Map<String, List<String>> customerNotifications;
